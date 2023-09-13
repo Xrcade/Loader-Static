@@ -112,8 +112,19 @@ footer a:hover {
 }
 
 #uv-address {
-width: 0px;
-height: 0px;
+  background: none;
+  font-family: inherit;
+  padding: 0px 17px;
+  height: 48px;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  color: var(--text-color);
+  border-radius: 3px;
+  outline: none;
+  width: 350px;
+  margin-top: 5px;
+  border-radius: 50px;
+  color: #fff;
+  transition: border-radius 0.1s;
 }
 
 #uv-address:focus {
